@@ -50,7 +50,7 @@ O jogo inclui **efeitos sonoros**, música de fundo em loop e a opção de ligar
 
 ## Demonstração
 jogar 
-[Demo do Jogo]()
+[Demo do Jogo](https://tattianerl.github.io/Yu-Gi-Oh-Jo-Ken-Po/)
 
 ## Autor
 
