@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel Decorative', cursive;
+    background: url('../img/bg-yugioh.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    display: flex;               
+    flex-direction: column;      
+    justify-content: center;     
+    align-items: center;         
+    height: 100vh;              
+    text-align: center;
+    }
+
+
+h1 {
+    font-family: 'UnifrakturCook', cursive;
+    margin: 20px;
+    font-size: 2.5rem;
+    color: gold;
+    text-shadow: 2px 2px 5px black;
+}
+h2{
+    font-family: 'Cinzel Decorative', cursive;
+}
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background: rgba(0,0,0,0.4); 
+    border-radius: 15px;         
+    }
+
+.choices {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.choices img {
+    width: 120px;
+    height: 180px;
+    border-radius: 10px;
+    border: 2px solid gold;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.choices img:hover {
+    transform: scale(1.1);
+}
+
+.result {
+    font-family: 'Cinzel Decorative', cursive;
+    margin-top: 20px;
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 5px black;
+}
+#toggle-sound {
+  background-color: gold;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 10px auto;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+#toggle-sound:hover {
+  transform: scale(1.1);
+  background-color: orange;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    h1 {
+    font-size: 1.8rem;
+    }
+    h2{
+    font-size: 1.5rem;
+    }
+    .choices img {
+    width: 90px;
+    height: 140px;
+    }
+    .result {
+    font-size: 1.4rem;
+    }
+}

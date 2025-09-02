@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./src/assets/css/style.css">
+  <title>Yu-Gi-Oh Jo-Ken-Po</title>
+</head>
+<body>
+  <audio id="click-sound" src="./src/assets/audio/click.mp3"></audio>
+  <audio id="win-sound" src="./src/assets/audio/win.wav"></audio>
+  <audio id="lose-sound" src="./src/assets/audio/lose.mp3"></audio>
+  <audio id="draw-sound" src="./src/assets/audio/draw.mp3"></audio>
+  <audio id="bg-music" src="./src/assets/audio/bg-music.mp3" preload="auto" loop></audio>
+
+  <h1>⚔️ Yu-Gi-Oh Jo-Ken-Po ⚔️</h1>
+  <h2>É hora do duelo!</h2>
+  <div class="game">
+    <div class="choices">
+      <img src="./src/assets/img/pedra.png" alt="Pedra" onclick="play('pedra')" />
+      <img src="./src/assets/img/papel.png" alt="Papel" onclick="play('papel')" />
+      <img src="./src/assets/img/tesoura.png" alt="Tesoura" onclick="play('tesoura')" />
+    </div>
+    <div class="result" id="result">Escolha uma carta!</div>
+  </div>
+  <button id="toggle-sound">🔊 Som: Ligado</button>
+  <script src="./src/assets/js/script.js"></script>
+</body>
+</html>
