@@ -1,30 +1,60 @@
+# ⚔️ Yu-Gi-Oh Jo-Ken-Po ⚔️
 
-# Yu-Gi-Oh — Jo-Ken-Po
+![Imagem do Jogo](./src/assets/img/preview.png)
 
-Um jogo simples inspirado em Yu-Gi-Oh, mas utilizando as mecânicas de Pedra, Papel e Tesoura (Jo-Ken-Po).  
+## Descrição
 
-Cada carta representa um atributo: **Pedra**, **Papel** ou **Tesoura**, e os jogadores (humano e AI) batalham seguindo essas regras.  
-
-O projeto é feito em **JavaScript puro**, com **controle de estado avançado** e código modular, mas também possui uma versão compacta em um único arquivo HTML para fácil execução.
-
----
-
-## 💻 Tecnologias
-
-- HTML5
-- CSS3
-- JavaScript ES6+
-- Estrutura de estado modular (simulando Redux)
-- Funções reaproveitáveis e modularização
+Yu-Gi-Oh Jo-Ken-Po é um jogo de cartas inspirado no clássico “Pedra, Papel e Tesoura” com temática de Yu-Gi-Oh.  
+O jogador escolhe uma carta e enfrenta o computador em duelos rápidos.  
+O jogo inclui **efeitos sonoros**, música de fundo em loop e a opção de ligar/desligar o som.
 
 ---
 
-## 🚀 Como jogar
+## Funcionalidades
 
-1. Abra o arquivo `index.html` no navegador ou utilize a versão hospedada no GitHub Pages/CodeSandbox.
-2. Clique em **Comprar** para adicionar cartas à mão.
-3. Clique em **Jogar Aleatória** ou em uma carta da sua mão para batalhar contra a AI.
-4. O log mostra as ações do jogador e da AI, e a vida (LP) é atualizada automaticamente.
-5. O objetivo é reduzir a vida do adversário a 0.
+- Escolha entre Pedra, Papel ou Tesoura.  
+- Resultado instantâneo: vitória, derrota ou empate.  
+- Música de fundo em loop.  
+- Botão para ligar/desligar todos os sons do jogo.  
+- Responsivo para telas pequenas (mobile).
 
 ---
+
+## Como Jogar
+
+1. Abra o arquivo `index.html` em um navegador.  
+2. Clique na carta desejada para jogar.  
+3. Veja o resultado na tela.  
+4. Use o botão **🔊 Som** para ativar/desativar música e efeitos.
+
+---
+
+## Tecnologias Utilizadas
+
+- HTML5  
+- CSS3  
+- JavaScript  
+- Google Fonts: [UnifrakturCook](https://fonts.google.com/specimen/UnifrakturCook), [Cinzel Decorative](https://fonts.google.com/specimen/Cinzel+Decorative)
+
+---
+
+## Como Contribuir
+
+1. Faça um fork deste repositório.  
+2. Crie uma branch com sua feature: `git checkout -b minha-feature`.  
+3. Faça commit das alterações: `git commit -m 'Minha feature'`.  
+4. Envie para o branch remoto: `git push origin minha-feature`.  
+5. Abra um Pull Request.  
+
+---
+
+## Demonstração
+jogar 
+[Demo do Jogo]()
+
+## Autor
+
+**Tatiane Lima** – [LinkedIn](https://www.linkedin.com/in/tati-lima85)
+
+---
+
